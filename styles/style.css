@@ -21,6 +21,7 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 
 /*------------------- 
@@ -55,4 +56,43 @@ top players style
 
 .player-name {
     margin-left: 16px;
+}
+
+/*------------------- 
+top blogs style 
+---------------------*/
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blo-title {
+    font-size: 20px;
+
+}
+
+.blog-author {
+    font-family: 16px;
+    color: gray;
+}
+
+.blog-author a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 }
