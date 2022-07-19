@@ -1,0 +1,37 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@500&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+
+}
+
+/* top players style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player h3 {
+    margin-left: 10px;
+}
